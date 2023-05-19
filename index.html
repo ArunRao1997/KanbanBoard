@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban Board</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d85cfd5407.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Toolbox (Navbar) -->
+    <div class="toolbox-cont">
+        <div class="toolbox-priority-cont">
+            <div class="light-pink color"></div>
+            <div class="light-green color"></div>
+            <div class="light-blue color"></div>
+            <div class="black color"></div>
+        </div>
+
+        <div class="action-btn-cont">
+            <div class="add-btn">
+                <i class="fa-solid fa-plus"></i>
+            </div>
+
+            <div class="remove-btn">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Task Ticket -->
+    <div class="main-cont">
+        <!-- <div class="ticket-cont">
+            <div class="ticket-color"></div>
+            <div class="ticket-id">12345</div>
+            <div class="task-area">Random Task</div>
+
+        </div> -->
+    </div>
+    <!-- Model Task Area -->
+    <div class="model-cont">
+        <textarea class="textArea-cont" placeholder="Enter the Task">
+            
+        </textarea>
+
+        <div class="priority-color-container">
+            <div class="light-pink priority-color"></div>
+            <div class="light-green priority-color"></div>
+            <div class="light-blue priority-color"></div>
+            <div class="black priority-color active"></div>
+        </div>
+
+    </div>
+
+
+    
+    <script src="https://unpkg.com/shortid-dist@1.0.5/dist/shortid-2.2.13.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
